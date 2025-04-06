@@ -1,0 +1,57 @@
+.SignUp-Section {
+      border: 2px solid black; 
+      text-align: center;
+      margin: 50px auto; 
+      padding: 20px; 
+      width: 360px; 
+      height: auto; 
+      border-radius: 15px; 
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+      background-color: #f9f9f9; 
+}
+
+.SignUp-Section label {
+      display: block; 
+      margin-bottom: 10px; 
+      font-size: 15px;
+      font-style: italic;
+      color: #333;
+}
+
+.SignUp-Section input, 
+.SignUp-Section select {
+      width: 90%; 
+      padding: 10px; 
+      margin-bottom: 15px; 
+      border: 1px solid #ccc;
+      border-radius: 5px; 
+      font-size: 14px; 
+      box-sizing: border-box;
+}
+
+.SignUp-Section input:focus, 
+.SignUp-Section select:focus {
+      border-color: #007BFF;
+      outline: none;
+      box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.SignUp-Section h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      color: #007BFF;
+}
+
+.SignUp-Section .login-back {
+      margin-top: 15px;
+      font-size: 14px;
+}
+
+.SignUp-Section .login-back a {
+      color: #007BFF;
+      text-decoration: none;
+}
+
+.SignUp-Section .login-back a:hover {
+      text-decoration: underline;
+}

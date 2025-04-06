@@ -1,0 +1,92 @@
+body {
+    background-color: #f0f4f8;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.Header {
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.NavBar {
+    text-align: center;
+    background-color: #007BFF;
+    padding: 15px;
+}
+
+.NavBar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.NavBar a:hover {
+    color: #fb00ff;
+}
+
+.login-section {
+    text-align: center; 
+    width: 360px; 
+    height: auto; 
+    border: 2px solid black; 
+    margin: 50px auto; 
+    padding: 20px; 
+    border-radius: 15px; 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+    background-color: #f9f9f9; 
+}
+
+.login-section h2 {
+    margin-bottom: 20px; 
+    font-size: 24px; 
+}
+
+.login-section label {
+    display: block; 
+    margin-bottom: 10px; 
+    font-size: 16px;
+    font-style:italic;
+}
+
+.login-section input {
+    width: 90%; 
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    font-size: 14px; 
+}
+
+.login-section button {
+    width: 95%; 
+    padding: 10px; 
+    background-color: #007BFF;
+    color: white; 
+    border: none; 
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer; 
+}
+
+.login-section button:hover {
+    background-color: #0056b3; 
+}
+
+.login-section p {
+    margin-top: 15px; 
+    font-size: 14px;
+    color: #000000; 
+}
+
+.login-section a {
+    color: #007BFF; 
+    text-decoration: none; 
+}
+
+.login-section a:hover {
+    text-decoration: underline;
+}
