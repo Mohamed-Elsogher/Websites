@@ -1,0 +1,88 @@
+body {
+      text-align: center;
+      background-color: rgb(36, 0, 69);
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+}
+.head {
+      font-family: "Press Start 2P";
+      font-style: italic;
+      color: aliceblue;
+      padding: 3%;
+}
+
+.iphone {
+      width: 360px;
+      height: 720px;
+      background-color: black;
+      border-radius: 40px;
+      margin: 50px auto;
+      padding: 20px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+      position: relative;
+}
+
+.iphone::before {
+      content: "";
+      width: 60px;
+      height: 5px;
+      background-color: #333;
+      border-radius: 10px;
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+}
+
+.calculator {
+      width: 100%;
+      height: 100%;
+      background-color: #222;
+      border-radius: 20px;
+      padding: 20px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+}
+
+.display {
+      background-color: black;
+      color: rgb(126, 14, 212);
+      font-size: 2rem;
+      text-align: right;
+      padding: 10px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+}
+
+.buttons {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); 
+      gap: 10px;
+}
+
+button {
+      background-color: #444;
+      color: white;
+      font-size: 1.5rem;
+      border: none;
+      border-radius: 10px;
+      padding: 15px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+}
+
+button:hover {
+      background-color: #666;
+}
+
+button[data-value="="] {
+      background-color: orange;
+      color: white;
+}
+
+button[data-value="="]:hover {
+      background-color: #ff9900;
+}
