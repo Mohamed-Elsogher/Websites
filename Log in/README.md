@@ -1,6 +1,6 @@
 # Log in
 
-****![image](https://github.com/user-attachments/assets/a9cbfaf8-e5a7-4b91-9aeb-bdfa7713c105)
+![image](https://github.com/user-attachments/assets/a9cbfaf8-e5a7-4b91-9aeb-bdfa7713c105)
 
 
 # Sign Up 
